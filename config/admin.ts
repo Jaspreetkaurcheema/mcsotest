@@ -9,6 +9,7 @@ export default ({ env }) => ({
     token: {
       salt: env('TRANSFER_TOKEN_SALT'),
     },
+        enabled: true,
   },
   flags: {
     nps: env.bool('FLAG_NPS', true),
