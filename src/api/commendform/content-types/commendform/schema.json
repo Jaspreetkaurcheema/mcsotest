@@ -12,19 +12,19 @@
   "pluginOptions": {},
   "attributes": {
     "location": {
-      "type": "string"
+       "type": "text"
     },
     "full_name": {
-      "type": "string"
+       "type": "text"
     },
     "member_name_or_badge": {
-      "type": "string"
+       "type": "text"
     },
     "comment": {
-      "type": "string"
+       "type": "text"
     },
     "email": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

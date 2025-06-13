@@ -8,11 +8,11 @@
   "options": {},
   "attributes": {
     "name": {
-      "type": "string",
+       "type": "text",
       "required": true
     },
     "email": {
-      "type": "string",
+       "type": "text",
       "required": false
     },
     "phones": {
@@ -25,7 +25,7 @@
       "type": "text"
     },
     "hyperlink": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

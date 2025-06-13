@@ -13,73 +13,73 @@
   "pluginOptions": {},
   "attributes": {
     "contact_type": {
-      "type": "string"
+       "type": "text"
     },
     "business_name": {
-      "type": "string"
+       "type": "text"
     },
     "Physicaladdress": {
-      "type": "string"
+       "type": "text"
     },
     "Businesstelephone": {
-      "type": "string"
+       "type": "text"
     },
     "owner_name": {
-      "type": "string"
+       "type": "text"
     },
     "owner_address": {
-      "type": "string"
+       "type": "text"
     },
     "owner_email": {
-      "type": "string"
+       "type": "text"
     },
     "if_other": {
-      "type": "string"
+       "type": "text"
     },
     "video_surveillance": {
-      "type": "string"
+       "type": "text"
     },
     "building_equiped": {
-      "type": "string"
+       "type": "text"
     },
     "systemmonitored": {
-      "type": "string"
+       "type": "text"
     },
     "alarm_company_info": {
-      "type": "string"
+       "type": "text"
     },
     "premises_alarm": {
-      "type": "string"
+       "type": "text"
     },
     "contact_name_address": {
-      "type": "string"
+       "type": "text"
     },
     "home_telephone": {
-      "type": "string"
+       "type": "text"
     },
     "mobile_telephone": {
-      "type": "string"
+       "type": "text"
     },
     "name_address": {
-      "type": "string"
+       "type": "text"
     },
     "telephone": {
-      "type": "string"
+       "type": "text"
     },
     "mobile": {
-      "type": "string"
+       "type": "text"
     },
     "address": {
-      "type": "string"
+       "type": "text"
     },
     "telephone1": {
-      "type": "string"
+       "type": "text"
     },
     "mobile1": {
-      "type": "string"
+       "type": "text"
     },
     "contact_update": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

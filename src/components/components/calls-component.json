@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "incident": {
-      "type": "string"
+       "type": "text"
     },
     "content": {
       "type": "customField",
@@ -18,16 +18,16 @@
       "customField": "plugin::ckeditor.CKEditor"
     },
     "complaint": {
-      "type": "string"
+       "type": "text"
     },
     "timereceived": {
-      "type": "string"
+       "type": "text"
     },
     "priority": {
-      "type": "string"
+       "type": "text"
     },
     "location": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

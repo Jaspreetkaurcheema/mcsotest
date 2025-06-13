@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "phone": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+       "type": "text"
     },
     "content": {
       "type": "customField",
@@ -24,7 +24,7 @@
       "customField": "plugin::ckeditor.CKEditor"
     },
     "subtitle": {
-      "type": "string"
+       "type": "text"
     },
     "wanterSection": {
       "type": "component",

@@ -12,13 +12,13 @@
   "pluginOptions": {},
   "attributes": {
     "email": {
-      "type": "string"
+       "type": "text"
     },
     "name": {
-      "type": "string"
+       "type": "text"
     },
     "message": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

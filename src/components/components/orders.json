@@ -7,10 +7,10 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+       "type": "text"
     },
     "subtitle": {
-      "type": "string"
+       "type": "text"
     },
     "chapters": {
       "displayName": "Chapters",

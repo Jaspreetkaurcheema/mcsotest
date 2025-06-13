@@ -13,10 +13,10 @@
   "pluginOptions": {},
   "attributes": {
     "Fullname": {
-      "type": "string"
+       "type": "text"
     },
     "Email": {
-      "type": "string",
+       "type": "text",
       "required": true,
       "unique": true
     },

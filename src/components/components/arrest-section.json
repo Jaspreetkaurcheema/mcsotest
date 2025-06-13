@@ -7,31 +7,31 @@
   "options": {},
   "attributes": {
     "FirstName": {
-      "type": "string"
+       "type": "text"
     },
     "lastName": {
-      "type": "string"
+       "type": "text"
     },
     "ArrestDate": {
       "type": "date"
     },
     "ArrestTime": {
-      "type": "string"
+       "type": "text"
     },
     "Age": {
-      "type": "string"
+       "type": "text"
     },
     "Gender": {
-      "type": "string"
+       "type": "text"
     },
     "Race": {
-      "type": "string"
+       "type": "text"
     },
     "Address": {
-      "type": "string"
+       "type": "text"
     },
     "Occupation": {
-      "type": "string"
+       "type": "text"
     },
     "ArrestLocation": {
       "type": "text"
@@ -51,10 +51,10 @@
       "customField": "plugin::ckeditor.CKEditor"
     },
     "Arraignment": {
-      "type": "string"
+       "type": "text"
     },
     "Bond": {
-      "type": "string"
+       "type": "text"
     },
     "image": {
       "allowedTypes": [

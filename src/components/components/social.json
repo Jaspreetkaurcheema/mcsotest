@@ -16,10 +16,10 @@
       ]
     },
     "url": {
-      "type": "string"
+       "type": "text"
     },
     "text": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "division": {
-      "type": "string"
+       "type": "text"
     },
     "personnel": {
       "displayName": "Personel",

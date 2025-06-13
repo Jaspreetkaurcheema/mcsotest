@@ -16,7 +16,7 @@
       "type": "json"
     },
     "title": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

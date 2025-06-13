@@ -13,13 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "hiring_platform_url": {
-      "type": "string"
+       "type": "text"
     },
     "hiring_email": {
       "type": "email"
     },
     "intro_video_url": {
-      "type": "string"
+       "type": "text"
     },
     "open_position": {
       "displayName": "Open Position",

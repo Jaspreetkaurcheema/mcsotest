@@ -7,28 +7,28 @@
   "options": {},
   "attributes": {
     "lastname": {
-      "type": "string"
+       "type": "text"
     },
     "firstname": {
-      "type": "string"
+       "type": "text"
     },
     "dob": {
-      "type": "string"
+       "type": "text"
     },
     "age": {
-      "type": "string"
+       "type": "text"
     },
     "Facility": {
-      "type": "string"
+       "type": "text"
     },
     "bookingtime": {
-      "type": "string"
+       "type": "text"
     },
     "Releasetime": {
-      "type": "string"
+       "type": "text"
     },
     "bondamount": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

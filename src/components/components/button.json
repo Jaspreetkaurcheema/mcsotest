@@ -8,11 +8,11 @@
   "options": {},
   "attributes": {
     "text": {
-      "type": "string",
+       "type": "text",
       "required": true
     },
     "url": {
-      "type": "string"
+       "type": "text"
     },
     "variant": {
       "type": "enumeration",

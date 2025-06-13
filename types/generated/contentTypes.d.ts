@@ -898,7 +898,7 @@ export interface ApiAbandonedAbandoned extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    title: Attribute.String;
+    title: Attribute.Text;
     content: Attribute.RichText &
       Attribute.CustomField<
         'plugin::ckeditor.CKEditor',

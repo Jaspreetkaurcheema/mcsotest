@@ -32,7 +32,7 @@
       ]
     },
     "pageTitle": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

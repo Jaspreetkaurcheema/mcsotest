@@ -13,19 +13,19 @@
   "pluginOptions": {},
   "attributes": {
     "email": {
-      "type": "string"
+       "type": "text"
     },
     "location": {
-      "type": "string"
+       "type": "text"
     },
     "comment_location": {
-      "type": "string"
+       "type": "text"
     },
     "comment_description": {
-      "type": "string"
+       "type": "text"
     },
     "captcha": {
-      "type": "string"
+       "type": "text"
     },
     "upload": {
       "allowedTypes": [

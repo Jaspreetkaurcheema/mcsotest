@@ -7,13 +7,13 @@
   "options": {},
   "attributes": {
     "FirstMiddle": {
-      "type": "string"
+       "type": "text"
     },
     "LastName": {
-      "type": "string"
+       "type": "text"
     },
     "ids": {
-      "type": "string"
+       "type": "text"
     },
     "Charges": {
       "type": "customField",
@@ -24,7 +24,7 @@
       "customField": "plugin::ckeditor.CKEditor"
     },
     "Age": {
-      "type": "string"
+       "type": "text"
     },
     "Bond": {
       "type": "customField",

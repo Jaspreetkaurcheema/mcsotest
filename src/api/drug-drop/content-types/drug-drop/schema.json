@@ -21,7 +21,7 @@
       "customField": "plugin::ckeditor.CKEditor"
     },
     "title": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

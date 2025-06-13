@@ -6,25 +6,25 @@
   "options": {},
   "attributes": {
     "number": {
-      "type": "string"
+       "type": "text"
     },
     "incident": {
-      "type": "string"
+       "type": "text"
     },
     "date": {
-      "type": "string"
+       "type": "text"
     },
     "time": {
-      "type": "string"
+       "type": "text"
     },
     "location": {
-      "type": "string"
+       "type": "text"
     },
     "complaint": {
-      "type": "string"
+       "type": "text"
     },
     "disposition": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

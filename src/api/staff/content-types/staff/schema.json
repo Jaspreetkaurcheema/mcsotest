@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string",
+       "type": "text",
       "required": true
     },
     "image": {
@@ -31,7 +31,7 @@
       "type": "text"
     },
     "email": {
-      "type": "string",
+       "type": "text",
       "required": true
     },
     "signature": {

@@ -8,10 +8,10 @@
   "options": {},
   "attributes": {
     "name": {
-      "type": "string"
+       "type": "text"
     },
     "occupation": {
-      "type": "string"
+       "type": "text"
     },
     "photo": {
       "type": "media",

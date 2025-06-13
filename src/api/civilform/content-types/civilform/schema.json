@@ -12,10 +12,10 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+       "type": "text"
     },
     "case": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

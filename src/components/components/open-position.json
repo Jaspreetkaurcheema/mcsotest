@@ -7,10 +7,10 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+       "type": "text"
     },
     "hiring_platform_url": {
-      "type": "string"
+       "type": "text"
     }
   }
 }

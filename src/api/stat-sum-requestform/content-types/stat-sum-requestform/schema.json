@@ -12,19 +12,19 @@
   "pluginOptions": {},
   "attributes": {
     "full_name": {
-      "type": "string"
+       "type": "text"
     },
     "email": {
-      "type": "string"
+       "type": "text"
     },
     "telephone": {
-      "type": "string"
+       "type": "text"
     },
     "year_requested": {
-      "type": "string"
+       "type": "text"
     },
     "comment": {
-      "type": "string"
+       "type": "text"
     }
   }
 }
