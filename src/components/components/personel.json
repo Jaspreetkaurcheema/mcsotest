@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_personels",
+  "info": {
+    "displayName": "Personel",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": false
+    },
+    "phones": {
+      "displayName": "Phones",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.phones"
+    },
+    "address": {
+      "type": "text"
+    },
+    "hyperlink": {
+      "type": "string"
+    }
+  }
+}

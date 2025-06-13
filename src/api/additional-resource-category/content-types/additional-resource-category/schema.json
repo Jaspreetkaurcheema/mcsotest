@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "additional_resource_categories",
+  "info": {
+    "singularName": "additional-resource-category",
+    "pluralName": "additional-resource-categories",
+    "displayName": "Additional Resource - Category"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "unique": false,
+      "required": true
+    },
+    "additional_resources": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::additional-resource.additional-resource",
+      "mappedBy": "category"
+    }
+  }
+}

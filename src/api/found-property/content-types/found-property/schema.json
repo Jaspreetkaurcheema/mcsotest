@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "found_properties",
+  "info": {
+    "singularName": "found-property",
+    "pluralName": "found-properties",
+    "displayName": "Found Property",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "sections": {
+      "displayName": "Plain Sections",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.plain-sections"
+    },
+    "documents": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": ["images"]
+    }
+  }
+}

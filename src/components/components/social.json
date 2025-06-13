@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_socials",
+  "info": {
+    "displayName": "Social",
+    "icon": "hashtag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "mail"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stat_sum_requestforms",
+  "info": {
+    "singularName": "stat-sum-requestform",
+    "pluralName": "stat-sum-requestforms",
+    "displayName": "statSumRequestform"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "year_requested": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    }
+  }
+}

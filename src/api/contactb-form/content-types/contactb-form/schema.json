@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactb_forms",
+  "info": {
+    "singularName": "contactb-form",
+    "pluralName": "contactb-forms",
+    "displayName": "contactbForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact_type": {
+      "type": "string"
+    },
+    "business_name": {
+      "type": "string"
+    },
+    "Physicaladdress": {
+      "type": "string"
+    },
+    "Businesstelephone": {
+      "type": "string"
+    },
+    "owner_name": {
+      "type": "string"
+    },
+    "owner_address": {
+      "type": "string"
+    },
+    "owner_email": {
+      "type": "string"
+    },
+    "if_other": {
+      "type": "string"
+    },
+    "video_surveillance": {
+      "type": "string"
+    },
+    "building_equiped": {
+      "type": "string"
+    },
+    "systemmonitored": {
+      "type": "string"
+    },
+    "alarm_company_info": {
+      "type": "string"
+    },
+    "premises_alarm": {
+      "type": "string"
+    },
+    "contact_name_address": {
+      "type": "string"
+    },
+    "home_telephone": {
+      "type": "string"
+    },
+    "mobile_telephone": {
+      "type": "string"
+    },
+    "name_address": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "telephone1": {
+      "type": "string"
+    },
+    "mobile1": {
+      "type": "string"
+    },
+    "contact_update": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionNavigations": {
+      "displayName": "Section Navigation",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.section-navigation"
+    }
+  }
+}

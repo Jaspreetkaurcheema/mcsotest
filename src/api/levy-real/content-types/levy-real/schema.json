@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "levy_reals",
+  "info": {
+    "singularName": "levy-real",
+    "pluralName": "levy-reals",
+    "displayName": "levyReal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

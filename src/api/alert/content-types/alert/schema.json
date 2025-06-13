@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "alerts",
+  "info": {
+    "singularName": "alert",
+    "pluralName": "alerts",
+    "displayName": "Alert",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alerts": {
+      "displayName": "Text List",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.text-list"
+    },
+    "autoplay_interval": {
+      "default": 5000,
+      "type": "integer"
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

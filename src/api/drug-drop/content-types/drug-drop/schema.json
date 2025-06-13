@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "drug_drops",
+  "info": {
+    "singularName": "drug-drop",
+    "pluralName": "drug-drops",
+    "displayName": "Drug drop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

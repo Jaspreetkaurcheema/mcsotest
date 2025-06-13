@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commendforms",
+  "info": {
+    "singularName": "commendform",
+    "pluralName": "commendforms",
+    "displayName": "commendform"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "member_name_or_badge": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

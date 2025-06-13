@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "jail_visit_flyer_spanishes",
+  "info": {
+    "singularName": "jail-visit-flyer-spanish",
+    "pluralName": "jail-visit-flyer-spanishes",
+    "displayName": "jailVisitFlyerSpanish"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

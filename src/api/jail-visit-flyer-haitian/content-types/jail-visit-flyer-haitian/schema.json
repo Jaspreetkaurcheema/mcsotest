@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "jail_visit_flyer_haitians",
+  "info": {
+    "singularName": "jail-visit-flyer-haitian",
+    "pluralName": "jail-visit-flyer-haitians",
+    "displayName": "jailVisitFlyerHaitian"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

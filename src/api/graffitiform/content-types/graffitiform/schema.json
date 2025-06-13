@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "graffitiforms",
+  "info": {
+    "singularName": "graffitiform",
+    "pluralName": "graffitiforms",
+    "displayName": "graffitiform",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "comment_location": {
+      "type": "string"
+    },
+    "comment_description": {
+      "type": "string"
+    },
+    "captcha": {
+      "type": "string"
+    },
+    "upload": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

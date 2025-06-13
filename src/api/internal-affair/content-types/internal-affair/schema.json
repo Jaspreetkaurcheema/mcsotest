@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "internal_affairs",
+  "info": {
+    "singularName": "internal-affair",
+    "pluralName": "internal-affairs",
+    "displayName": "Internal Affair"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.plain-sections"
+    }
+  }
+}

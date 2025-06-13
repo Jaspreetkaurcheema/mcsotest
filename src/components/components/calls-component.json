@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_calls_components",
+  "info": {
+    "displayName": "callsComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "incident": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "complaint": {
+      "type": "string"
+    },
+    "timereceived": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

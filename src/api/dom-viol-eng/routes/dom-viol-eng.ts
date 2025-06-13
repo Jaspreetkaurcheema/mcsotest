@@ -1,0 +1,7 @@
+/**
+ * dom-viol-eng router
+ */
+
+import { factories } from '@strapi/strapi';
+
+export default factories.createCoreRouter('api::dom-viol-eng.dom-viol-eng');

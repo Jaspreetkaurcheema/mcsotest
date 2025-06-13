@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_components_arrest_sections",
+  "info": {
+    "displayName": "ArrestSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "ArrestDate": {
+      "type": "date"
+    },
+    "ArrestTime": {
+      "type": "string"
+    },
+    "Age": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Race": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Occupation": {
+      "type": "string"
+    },
+    "ArrestLocation": {
+      "type": "text"
+    },
+    "Incident": {
+      "type": "text"
+    },
+    "Offense": {
+      "type": "text"
+    },
+    "Charges": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Arraignment": {
+      "type": "string"
+    },
+    "Bond": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

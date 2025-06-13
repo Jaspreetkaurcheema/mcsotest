@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactb_thanku_msgs",
+  "info": {
+    "singularName": "contactb-thanku-msg",
+    "pluralName": "contactb-thanku-msgs",
+    "displayName": "contactbThankuMsg"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

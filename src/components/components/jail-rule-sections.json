@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_jail_rule_sections",
+  "info": {
+    "displayName": "Jail Rule Sections",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

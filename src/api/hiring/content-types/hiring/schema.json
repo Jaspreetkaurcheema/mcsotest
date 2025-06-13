@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "hirings",
+  "info": {
+    "singularName": "hiring",
+    "pluralName": "hirings",
+    "displayName": "Hiring",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hiring_platform_url": {
+      "type": "string"
+    },
+    "hiring_email": {
+      "type": "email"
+    },
+    "intro_video_url": {
+      "type": "string"
+    },
+    "open_position": {
+      "displayName": "Open Position",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.open-position"
+    },
+    "job_requirements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.job-requirements"
+    },
+    "socials": {
+      "displayName": "Social",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.social"
+    },
+    "testimonials": {
+      "displayName": "Testimonials",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.testimonials"
+    }
+  }
+}

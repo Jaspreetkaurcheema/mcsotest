@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "stat_sum_requests",
+  "info": {
+    "singularName": "stat-sum-request",
+    "pluralName": "stat-sum-requests",
+    "displayName": "statSumRequest"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "fields": {
+      "type": "json"
+    }
+  }
+}

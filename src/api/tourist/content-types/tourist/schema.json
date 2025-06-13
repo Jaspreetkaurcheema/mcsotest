@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "tourists",
+  "info": {
+    "singularName": "tourist",
+    "pluralName": "tourists",
+    "displayName": "Tourist"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

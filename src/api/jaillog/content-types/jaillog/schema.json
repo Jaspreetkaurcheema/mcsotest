@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jaillogs",
+  "info": {
+    "singularName": "jaillog",
+    "pluralName": "jaillogs",
+    "displayName": "Jaillog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.section"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

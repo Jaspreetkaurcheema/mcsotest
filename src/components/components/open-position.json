@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_open_positions",
+  "info": {
+    "displayName": "Open Position",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hiring_platform_url": {
+      "type": "string"
+    }
+  }
+}

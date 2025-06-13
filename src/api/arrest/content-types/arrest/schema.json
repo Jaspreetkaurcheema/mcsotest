@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "arrests",
+  "info": {
+    "singularName": "arrest",
+    "pluralName": "arrests",
+    "displayName": "arrest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "wanterSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.arrest-section"
+    },
+    "lastSevenSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.arrest-section"
+    }
+  }
+}

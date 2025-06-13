@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_orders",
+  "info": {
+    "displayName": "Orders",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "chapters": {
+      "displayName": "Chapters",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.chapters"
+    }
+  }
+}

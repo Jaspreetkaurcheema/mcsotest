@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "writ_guides",
+  "info": {
+    "singularName": "writ-guide",
+    "pluralName": "writ-guides",
+    "displayName": "writGuide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

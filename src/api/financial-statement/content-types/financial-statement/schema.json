@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "financial_statements",
+  "info": {
+    "singularName": "financial-statement",
+    "pluralName": "financial-statements",
+    "displayName": "Financial Statement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "financial_statement": {
+      "displayName": "Financial",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.financial"
+    },
+    "budget": {
+      "displayName": "Budget",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.financial"
+    }
+  }
+}

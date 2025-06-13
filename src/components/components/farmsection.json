@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_farmsections",
+  "info": {
+    "displayName": "farmsection"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

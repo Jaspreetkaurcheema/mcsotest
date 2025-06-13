@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "success",
+        "danger",
+        "warning",
+        "info",
+        "light",
+        "dark",
+        "body",
+        "muted",
+        "white",
+        "outline-primary",
+        "outline-secondary",
+        "outline-success",
+        "outline-danger",
+        "outline-warning",
+        "outline-info",
+        "outline-light",
+        "outline-dark"
+      ],
+      "required": true,
+      "default": "primary"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "default": "md"
+    }
+  }
+}

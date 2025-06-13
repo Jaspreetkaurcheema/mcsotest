@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "complaints",
+  "info": {
+    "singularName": "complaint",
+    "pluralName": "complaints",
+    "displayName": "complaint"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "fields": {
+      "type": "json"
+    }
+  }
+}

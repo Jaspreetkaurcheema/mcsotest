@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "jail_visit_hours",
+  "info": {
+    "singularName": "jail-visit-hour",
+    "pluralName": "jail-visit-hours",
+    "displayName": "jailVisitHour"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

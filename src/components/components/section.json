@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_components_sections",
+  "info": {
+    "displayName": "section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FirstMiddle": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "ids": {
+      "type": "string"
+    },
+    "Charges": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Age": {
+      "type": "string"
+    },
+    "Bond": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "location": {
+      "type": "text"
+    }
+  }
+}

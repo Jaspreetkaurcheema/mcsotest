@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "jail_rules",
+  "info": {
+    "singularName": "jail-rule",
+    "pluralName": "jail-rules",
+    "displayName": "Jail Rule",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "displayName": "Jail Rule Sections",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.jail-rule-sections"
+    }
+  }
+}

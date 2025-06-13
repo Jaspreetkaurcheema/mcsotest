@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "stat_sum_request_thanku_msgs",
+  "info": {
+    "singularName": "stat-sum-request-thanku-msg",
+    "pluralName": "stat-sum-request-thanku-msgs",
+    "displayName": "StatSumRequestThankuMsg"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

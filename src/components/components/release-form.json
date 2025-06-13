@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_release_forms",
+  "info": {
+    "displayName": "ReleaseForm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lastname": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "Facility": {
+      "type": "string"
+    },
+    "bookingtime": {
+      "type": "string"
+    },
+    "Releasetime": {
+      "type": "string"
+    },
+    "bondamount": {
+      "type": "string"
+    }
+  }
+}

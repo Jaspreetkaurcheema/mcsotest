@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "civilforms",
+  "info": {
+    "singularName": "civilform",
+    "pluralName": "civilforms",
+    "displayName": "civilform"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "case": {
+      "type": "string"
+    }
+  }
+}

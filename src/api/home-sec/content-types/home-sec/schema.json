@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_secs",
+  "info": {
+    "singularName": "home-sec",
+    "pluralName": "home-secs",
+    "displayName": "homeSec"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.plain-sections"
+    }
+  }
+}

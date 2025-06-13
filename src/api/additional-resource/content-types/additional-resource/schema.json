@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "additional_resource",
+  "info": {
+    "singularName": "additional-resource",
+    "pluralName": "additional-resources",
+    "displayName": "Additional Resource",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "actions": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::additional-resource-category.additional-resource-category",
+      "inversedBy": "additional_resources"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo_link": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

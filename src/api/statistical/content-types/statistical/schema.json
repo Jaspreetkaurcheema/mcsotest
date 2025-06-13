@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statisticals",
+  "info": {
+    "singularName": "statistical",
+    "pluralName": "statisticals",
+    "displayName": "Statistical",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fullname": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Phone": {
+      "type": "integer"
+    }
+  }
+}

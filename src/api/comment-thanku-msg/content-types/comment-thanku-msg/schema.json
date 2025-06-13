@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "comment_thanku_msgs",
+  "info": {
+    "singularName": "comment-thanku-msg",
+    "pluralName": "comment-thanku-msgs",
+    "displayName": "commentThankuMsg"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

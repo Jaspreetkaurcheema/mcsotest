@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "dom_viol_engs",
+  "info": {
+    "singularName": "dom-viol-eng",
+    "pluralName": "dom-viol-engs",
+    "displayName": "domViolEng"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

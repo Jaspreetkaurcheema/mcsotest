@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "general_orders",
+  "info": {
+    "singularName": "general-order",
+    "pluralName": "general-orders",
+    "displayName": "General Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "orders": {
+      "displayName": "Orders",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.orders"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

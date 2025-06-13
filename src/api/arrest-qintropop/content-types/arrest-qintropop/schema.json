@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "arrest_qintropops",
+  "info": {
+    "singularName": "arrest-qintropop",
+    "pluralName": "arrest-qintropops",
+    "displayName": "arrestQintropop"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

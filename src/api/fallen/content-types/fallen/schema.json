@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "fallens",
+  "info": {
+    "singularName": "fallen",
+    "pluralName": "fallens",
+    "displayName": "fallen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.fallencomponent"
+    }
+  }
+}

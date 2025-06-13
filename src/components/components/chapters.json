@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_chapters",
+  "info": {
+    "displayName": "Chapters",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "file": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false
+    },
+    "sub_chapters": {
+      "displayName": "Sub Chapters",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.sub_chapters"
+    }
+  }
+}

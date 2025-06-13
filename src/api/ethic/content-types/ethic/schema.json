@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "ethics",
+  "info": {
+    "singularName": "ethic",
+    "pluralName": "ethics",
+    "displayName": "ethic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

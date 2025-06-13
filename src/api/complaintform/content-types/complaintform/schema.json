@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "complaintforms",
+  "info": {
+    "singularName": "complaintform",
+    "pluralName": "complaintforms",
+    "displayName": "complaintform"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "member_name_or_badge": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "upload": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

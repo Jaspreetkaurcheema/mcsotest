@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personnel_directories",
+  "info": {
+    "singularName": "personnel-directory",
+    "pluralName": "personnel-directories",
+    "displayName": "Personnel Directory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "division": {
+      "displayName": "Personnel Division",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.personnel-division"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_job_requirements",
+  "info": {
+    "displayName": "Job Requirements",
+    "icon": "car",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "requirements": {
+      "displayName": "List",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list"
+    }
+  }
+}

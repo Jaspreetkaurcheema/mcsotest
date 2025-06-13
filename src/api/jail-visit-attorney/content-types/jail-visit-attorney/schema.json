@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "jail_visit_attorneys",
+  "info": {
+    "singularName": "jail-visit-attorney",
+    "pluralName": "jail-visit-attorneys",
+    "displayName": "jailVisitAttorney"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

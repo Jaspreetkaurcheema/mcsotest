@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "weekly_wrap_ups",
+  "info": {
+    "singularName": "weekly-wrap-up",
+    "pluralName": "weekly-wrap-ups",
+    "displayName": "Weekly Wrap Up",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "notes": {
+      "type": "text"
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "pageTitle": {
+      "type": "string"
+    }
+  }
+}

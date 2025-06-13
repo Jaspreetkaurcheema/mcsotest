@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "jail_visits",
+  "info": {
+    "singularName": "jail-visit",
+    "pluralName": "jail-visits",
+    "displayName": "jailVisit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.plain-sections"
+    }
+  }
+}
